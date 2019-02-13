@@ -1,0 +1,55 @@
+body {
+    background-color: #1a3246;
+    background-image: url(http://1.bp.blogspot.com/-fu0yK0wVClI/WREBYD5J8kI/AAAAAAAAAIc/VHb0uqXBfFEuM2dL68aArrFWscX2fU8lgCK4B/w1920/cube%2Bbr%2B-%2Bcapa.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+
+.content {
+    background-color: #23435d;
+    padding: 10;
+    border-style: solid;
+    border-color: #0b2031;
+    padding-bottom: 300px;
+    position: relative;
+}
+
+
+.topmenu {
+    display: inline-block;
+    margin-top: 300;
+    background-color: #000000a1;
+    padding: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+
+button {
+	font: normal bold 100% Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+button:hover {
+	cursor: pointer;
+}
+
+.menubutton {
+	background-color: #f0f8ff00;
+	border-style: none;
+	border-bottom-style: solid;
+    border-color: #00000000;
+    border-width: 2px;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+	transition: border-color 0.4s;
+}
+
+.menubutton:active {
+	border-bottom-color: white;
+}
+
+.menubutton:hover {
+	border-bottom-color: white;
+}
